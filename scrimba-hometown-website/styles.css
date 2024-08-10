@@ -1,0 +1,61 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+/*
+Neon Green: #00FF85
+
+Represents the glowing green light at the top of the tallest building.
+Royal Purple: #673AB7
+
+Captures the vibrant purple lights illuminating some of the buildings.
+Midnight Blue: #1A237E
+
+Reflects the deep blue hues seen on the left side of the buildings.
+Electric Blue: #1E88E5
+
+Taken from the bright blue lights seen on the right side of the buildings.
+Warm Amber: #FFAB00
+
+Represents the warm, golden streetlights and the overall glow of the city at night.
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.section{
+    height: 100vh;
+    margin: 0;
+}
+
+#hero {
+    background-image: url("images/riyadh.jpg");
+    background-size: cover;
+}
+
+#heading{
+    background: #00FF85;
+    color: #ffff;
+    width: 400px;
+}
+
+#subheading{
+    background: #1A237E;
+    color: #ffff;
+    width: 400px;
+}
+
+#activity-div{
+    background: #1A237E;
+}
