@@ -1,77 +1,86 @@
-body{
+body {
     margin: 0;
     padding: 40px;
     background: #1C1C1C;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
 }
 
-.card{
+.card {
     background: #1F2937;
     padding: 60px 40px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-h1{
+h1 {
     color: white;
-    font-family: "Karla";
-    font-size: 65px;
+    font-family: "Karla", sans-serif;
+    font-size: 2.5rem;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
-h2{
+h2 {
     color: #D5D4D8;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 400;
-    margin: -10px 0 40px 0;
+    margin-bottom: 40px;
 }
 
-span{
+span {
     color: #4ADF86;
     display: block;
 }
 
-.flex-div{
+.flex-div {
     display: flex;
     align-items: center;
     padding-bottom: 20px;
 }
 
-.flex-item{
+.flex-item {
     margin-right: 40px;
+    flex-grow: 1;
 }
 
-#output-div{
-    border-top: 1px solid #D5D4D880;
+#output-div {
+    border-top: 2px solid #273549;
     padding-top: 20px;
 }
 
 button {
     padding: 15px 30px;
     border-radius: 5px;
-    border: 0;
+    border: none;
     background: #10B981;
     color: white;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     cursor: pointer;
+    transition: background 0.3s ease;
 }
 
-input{
+button:hover {
+    background: #0f9b78;
+}
+
+input {
     background: #D5D4D8;
     width: 150px;
     padding: 15px 20px;
-    outline: 0;
-    border: 0;
+    outline: none;
+    border: none;
     border-radius: 5px;
     text-align: center;
 }
 
-.output{
-    width: 4em;
+.output {
     padding: 20px 30px;
-    outline: 0;
-    border: 0;
     border-radius: 5px;
     background-color: #273549;
     color: #4ADF86;
-    width: 60px;
     text-align: center;
+    min-width: 100px;  
+    word-wrap: break-word;
 }
