@@ -5,35 +5,36 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="styles.css">
 
-<script src=""></script>
-
 <body>
     <div class="color-generator-div">
-        <form>
-            <input id="color-input" type="color">
+        <form id="form-el">
+            <input id="color-input" name="color-input" type="color">
             <select name="schemes" id="schemes-input">
-                <option value="Monochome">Monochome</option>
-                <option value="Monochome-light">Monochome-light</option>
-                <option value="Monochome-dark">Monochome-dark</option>
-                <option value="Analogic">Analogic</option>
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
             </select>
-            <button>Get Color Scheme</button>
+            <button id="get-scheme-btn" type="submit">Get Color Scheme</button>
         </form>
         <div class="palette-div">
             <div class="color-div"></div>
-            <div class="color-hex-name-div"></div>
             <div class="color-div"></div>
-            <div class="color-hex-name-div"></div>
             <div class="color-div"></div>
-            <div class="color-hex-name-div"></div>
             <div class="color-div"></div>
-            <div class="color-hex-name-div"></div>
             <div class="color-div"></div>
-            <div class="color-hex-name-div"></div>
-            </div>
+            <div class="color-hex-name-div">#000000</div>
+            <div class="color-hex-name-div">#1A1919</div>
+            <div class="color-hex-name-div">#343232</div>
+            <div class="color-hex-name-div">#4F4A4A</div>
+            <div class="color-hex-name-div">#6A6262</div>
         </div>
     </div>
-
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
